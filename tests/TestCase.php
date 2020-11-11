@@ -6,17 +6,18 @@
  * @license http://opensource.org/licenses/MIT The MIT License.
  */
 
-namespace ProxmoxVE;
+namespace Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
+use ProxmoxVE\Proxmox;
 
 /**
  * @author César Muñoz <zzantares@gmail.com>
  */
-class TestCase extends \PHPUnit_Framework_TestCase
+class TestCase extends \PHPUnit\Framework\TestCase
 {
     protected function getMockProxmox($method = null, $return = null)
     {

@@ -27,7 +27,8 @@
     "require": {
         "php": "^7.4",
         "lib-curl": "*",
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^7.0.1",
+        "ext-json": "*"
     },
 
     "require-dev": {
@@ -36,7 +37,8 @@
 
     "autoload": {
         "psr-4": {
-            "ProxmoxVE\\": "src/"
+            "ProxmoxVE\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     

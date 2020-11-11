@@ -1,6 +1,6 @@
 <?php
 
-namespace ProxmoxVE\CustomClasses;
+namespace Tests\CustomClasses;
 
 class Person
 {
