@@ -38,6 +38,11 @@
         "psr-4": {
             "ProxmoxVE\\": "src/"
         }
+    },
+    
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
     }
-
 }
