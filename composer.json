@@ -1,9 +1,9 @@
 {
-    "name": "zzantares/proxmoxve",
+    "name": "servinga/proxmoxve",
     "type": "library",
     "description": "A simple PHP 5.5+ Proxmox API client.",
     "keywords": ["Proxmox", "API", "KVM", "OpenVZ", "Virtualization"],
-    "homepage": "https://github.com/ZzAntares/ProxmoxVE",
+    "homepage": "https://github.com/servinga/ProxmoxVE",
     "license": "MIT",
 
     "authors": [
@@ -11,23 +11,27 @@
             "name": "César Muñoz",
             "email": "zzantares@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Tobias Hannaske",
+            "email": "th@servinga.com",
+            "role": "Developer
         }
     ],
 
     "support": {
-        "issues": "https://github.com/ZzAntares/ProxmoxVE/issues",
-        "source": "https://github.com/ZzAntares/ProxmoxVE"
+        "issues": "https://github.com/servinga/ProxmoxVE/issues",
+        "source": "https://github.com/servinga/ProxmoxVE"
     },
 
     "require": {
-        "php": ">=5.5.0",
+        "php": "^7.4",
         "lib-curl": "*",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "^7.0.1"
     },
 
     "require-dev": {
-        "phpunit/phpunit": "~4.1",
-        "squizlabs/php_codesniffer": "1.*"
+        "phpunit/phpunit": "^9.0"
     },
 
     "autoload": {
